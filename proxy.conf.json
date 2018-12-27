@@ -1,0 +1,10 @@
+{
+  "/proxy/*": {
+    "target": "https://stbhml.enterprisetrn.hdevelo.com.br/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/proxy": ""
+    }
+  }
+}
